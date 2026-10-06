@@ -1,0 +1,41 @@
+sentiment,review
+positive,This product is amazing
+positive,I really love this product
+positive,The quality is excellent
+positive,Very happy with my purchase
+positive,The service was wonderful
+positive,This is a fantastic experience
+positive,I am very satisfied
+positive,The product works perfectly
+positive,Excellent quality and fast delivery
+positive,I would definitely recommend this
+positive,The app is easy to use
+positive,Very useful and reliable product
+positive,Great product and great service
+positive,I am impressed with the quality
+positive,Everything worked perfectly
+negative,This product is terrible
+negative,I really hate this product
+negative,The quality is very poor
+negative,I am unhappy with my purchase
+negative,The service was horrible
+negative,This was a terrible experience
+negative,I am very disappointed
+negative,The product does not work
+negative,Very bad quality
+negative,I would not recommend this
+negative,The app is difficult to use
+negative,This product is useless
+negative,Very poor service
+negative,I regret buying this product
+negative,Everything went wrong
+positive,The delivery was quick and excellent
+negative,The delivery was late and disappointing
+positive,Customer support was very helpful
+negative,Customer support was not helpful
+positive,The product exceeded my expectations
+negative,The product failed after one day
+positive,Good value and great quality
+negative,Not worth the money
+positive,Simple and convenient to use
+negative,Very frustrating experience
