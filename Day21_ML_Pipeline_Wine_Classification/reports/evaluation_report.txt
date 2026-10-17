@@ -1,0 +1,24 @@
+WINE CLASSIFIACTION EVALUATION REPORT
+==========================
+Total samples: 178
+Total features: 13
+Trainig sample: 142
+Testing sample: 36
+Accuracy : 0.97
+
+CLASSIFICATION REPORT
+--------------------------
+              precision    recall  f1-score   support
+
+     class_0       1.00      1.00      1.00        12
+     class_1       0.93      1.00      0.97        14
+     class_2       1.00      0.90      0.95        10
+
+    accuracy                           0.97        36
+   macro avg       0.98      0.97      0.97        36
+weighted avg       0.97      0.97      0.97        36
+
+----------------
+[[12  0  0]
+ [ 0 14  0]
+ [ 0  1  9]]
