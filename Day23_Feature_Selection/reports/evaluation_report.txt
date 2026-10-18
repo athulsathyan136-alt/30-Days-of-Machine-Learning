@@ -1,0 +1,39 @@
+FEATURE SELECTION - CLASSIFICATION REPORT
+=========================================
+Dataset samples: 569
+Total features: 30
+Selected features: 10
+Training samples: 455
+Testing samples: 114
+
+Baseline accuracy (all features): 98.25%
+Selected-model accuracy: 94.74%
+
+SELECTED FEATURES
+-----------------
+mean radius
+mean perimeter
+mean area
+mean concavity
+mean concave points
+worst radius
+worst perimeter
+worst area
+worst concavity
+worst concave points
+
+CLASSIFICATION REPORT
+---------------------
+              precision    recall  f1-score   support
+
+   malignant       0.91      0.95      0.93        42
+      benign       0.97      0.94      0.96        72
+
+    accuracy                           0.95       114
+   macro avg       0.94      0.95      0.94       114
+weighted avg       0.95      0.95      0.95       114
+
+CONFUSION MATRIX
+----------------
+[[40  2]
+ [ 4 68]]
