@@ -1,0 +1,42 @@
+
+IMBALANCED DATASET CLASSIFICATION REPORT
+========================================
+
+Total samples: 2000
+Number of features: 10
+Class 0 samples: 1892
+Class 1 samples: 108
+Training samples: 1600
+Testing samples: 400
+
+METRICS FOR MINORITY CLASS (CLASS 1)
+====================================
+
+Accuracy               0.9400         0.7175
+Precision              0.0000       0.1240
+Recall                 0.0000          0.6818
+F1-score               0.0000        0.2098
+
+BASELINE CONFUSION MATRIX
+=========================
+Rows = actual classes; columns = predicted classes
+[[376   2]
+ [ 22   0]]
+
+BALANCED MODEL CONFUSION MATRIX
+================================
+Rows = actual classes; columns = predicted classes
+[[272 106]
+ [  7  15]]
+
+BALANCED MODEL CLASSIFICATION REPORT
+====================================
+                    precision    recall  f1-score   support
+
+Majority class (0)       0.97      0.72      0.83       378
+Minority class (1)       0.12      0.68      0.21        22
+
+          accuracy                           0.72       400
+         macro avg       0.55      0.70      0.52       400
+      weighted avg       0.93      0.72      0.79       400
+
