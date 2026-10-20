@@ -1,0 +1,18 @@
+CROSS-VALIDATION MODEL COMPARISON
+================================
+Training samples: 455
+Test samples: 114
+Cross-validation folds: 5
+
+Model: Logistic Regression
+Fold scores: [0.967 0.989 0.978 0.989 0.967]
+Mean CV accuracy: 0.9780
+Standard deviation: 0.0098
+
+Model: Random Forest
+Fold scores: [0.967  0.956  0.9341 0.967  0.989 ]
+Mean CV accuracy: 0.9626
+Standard deviation: 0.0179
+
+Selected model: Logistic Regression
+Held-out test accuracy: 0.9825
