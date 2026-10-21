@@ -1,0 +1,21 @@
+DAY 26: MODEL CALIBRATION REPORT
+
+Dataset: Breast Cancer Wisconsin (built into scikit-learn)
+Training samples: 455
+Testing samples: 114
+Number of features: 30
+
+Original Model
+Accuracy: 0.9825
+Brier score: 0.0215
+Log loss: 0.0777
+
+Calibrated Model
+Accuracy: 0.9912
+Brier score: 0.0271
+Log loss: 0.1134
+
+Interpretation:
+Lower Brier score and lower log loss generally indicate
+better probability predictions on this test set.
+Calibration does not necessarily improve classification accuracy.
