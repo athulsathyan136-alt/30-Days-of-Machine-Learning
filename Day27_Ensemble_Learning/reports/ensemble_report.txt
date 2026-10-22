@@ -1,0 +1,73 @@
+DAY 27: ENSEMBLE LEARNING REPORT
+Training samples: 455
+Testing samples: 114
+Number of features: 30
+
+
+===== Logistic Regression =====
+Accuracy: 0.9825
+Precision: 0.9861
+Recall: 0.9861
+F1 score: 0.9861
+
+Confusion matrix:
+[[41  1]
+ [ 1 71]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   malignant       0.98      0.98      0.98        42
+      benign       0.99      0.99      0.99        72
+
+    accuracy                           0.98       114
+   macro avg       0.98      0.98      0.98       114
+weighted avg       0.98      0.98      0.98       114
+
+
+===== Random Forest =====
+Accuracy: 0.9474
+Precision: 0.9714
+Recall: 0.9444
+F1 score: 0.9577
+
+Confusion matrix:
+[[40  2]
+ [ 4 68]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   malignant       0.91      0.95      0.93        42
+      benign       0.97      0.94      0.96        72
+
+    accuracy                           0.95       114
+   macro avg       0.94      0.95      0.94       114
+weighted avg       0.95      0.95      0.95       114
+
+
+===== Soft Voting Ensemble =====
+Accuracy: 0.9737
+Precision: 0.9859
+Recall: 0.9722
+F1 score: 0.9790
+
+Confusion matrix:
+[[41  1]
+ [ 2 70]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+   malignant       0.95      0.98      0.96        42
+      benign       0.99      0.97      0.98        72
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+
+Highest F1 score in this comparison: Logistic Regression
+
+Note: evaluation results are for learning purposes only.
+This dataset and model are not for clinical diagnosis.
