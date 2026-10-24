@@ -1,0 +1,51 @@
+DAY 27: LEARNING CURVES AND BIAS-VARIANCE
+==================================================
+
+Dataset: synthetic binary classification
+Total samples: 2000
+Training samples: 1600
+Testing samples: 400
+
+
+MODEL: Logistic Regression
+----------------------------------------
+Samples=256, Training accuracy=0.7586, Validation accuracy=0.7156
+Samples=512, Training accuracy=0.7395, Validation accuracy=0.7125
+Samples=768, Training accuracy=0.7352, Validation accuracy=0.7225
+Samples=1024, Training accuracy=0.7326, Validation accuracy=0.7150
+Samples=1280, Training accuracy=0.7302, Validation accuracy=0.7256
+Final training score: 0.7302
+Final validation score: 0.7256
+Final train-validation gap: 0.0045
+
+MODEL: Random Forest
+----------------------------------------
+Samples=256, Training accuracy=1.0000, Validation accuracy=0.7956
+Samples=512, Training accuracy=1.0000, Validation accuracy=0.8231
+Samples=768, Training accuracy=1.0000, Validation accuracy=0.8331
+Samples=1024, Training accuracy=1.0000, Validation accuracy=0.8412
+Samples=1280, Training accuracy=1.0000, Validation accuracy=0.8562
+Final training score: 1.0000
+Final validation score: 0.8562
+Final train-validation gap: 0.1438
+
+MODEL COMPARISON
+----------------------------------------
+Logistic Regression: final CV accuracy=0.7256
+Random Forest: final CV accuracy=0.8562
+
+Selected model: Random Forest
+
+Selection method: highest mean validation accuracy at the largest learning-curve training size.
+
+SELECTED MODEL CROSS-VALIDATION
+----------------------------------------
+Fold scores: [0.8781, 0.8625, 0.8562, 0.8219, 0.8406]
+Mean CV accuracy: 0.8519
+CV standard deviation: 0.0192
+
+HELD-OUT TEST RESULT
+----------------------------------------
+Test accuracy: 0.8775
+
+Note: the test set is held out from model selection.
