@@ -1,0 +1,79 @@
+DAY 28: ENSEMBLE LEARNING
+=============================================
+
+Dataset: synthetic binary classification
+Training samples: 2400
+Testing samples: 600
+
+
+MODEL: Decision Tree
+----------------------------------------
+Accuracy: 0.8483
+Precision: 0.6187
+Recall: 0.6935
+F1-score: 0.6540
+ROC-AUC: 0.8633
+True negatives: 423
+False positives: 53
+False negatives: 38
+True positives: 86
+Confusion matrix:
+[[423  53]
+ [ 38  86]]
+
+MODEL: Random Forest
+----------------------------------------
+Accuracy: 0.9183
+Precision: 0.8261
+Recall: 0.7661
+F1-score: 0.7950
+ROC-AUC: 0.9385
+True negatives: 456
+False positives: 20
+False negatives: 29
+True positives: 95
+Confusion matrix:
+[[456  20]
+ [ 29  95]]
+
+MODEL: Gradient Boosting
+----------------------------------------
+Accuracy: 0.8933
+Precision: 0.9167
+Recall: 0.5323
+F1-score: 0.6735
+ROC-AUC: 0.9113
+True negatives: 470
+False positives: 6
+False negatives: 58
+True positives: 66
+Confusion matrix:
+[[470   6]
+ [ 58  66]]
+
+MODEL: Voting Classifier
+----------------------------------------
+Accuracy: 0.8900
+Precision: 0.7197
+Recall: 0.7661
+F1-score: 0.7422
+ROC-AUC: 0.9172
+True negatives: 439
+False positives: 37
+False negatives: 29
+True positives: 95
+Confusion matrix:
+[[439  37]
+ [ 29  95]]
+
+MODEL SELECTION
+----------------------------------------
+Best model: Random Forest
+Best F1-score: 0.7950
+Selection metric: F1-score
+
+FINAL RESULT
+----------------------------------------
+Selected model: Random Forest
+
+All metrics were calculated on the held-out test set.
