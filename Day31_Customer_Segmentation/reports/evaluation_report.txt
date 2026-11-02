@@ -1,0 +1,46 @@
+
+CUSTOMER SEGMENTATION - MODEL REPORT
+====================================
+
+Project: Day 31 Customer Segmentation
+Algorithm: K-Means Clustering
+
+DATASET
+-------
+Total customers: 1000
+Number of features: 6
+Features: Age, AnnualIncome, SpendingScore, PurchaseFrequency, AverageOrderValue, WebsiteVisits
+
+MODEL
+-----
+Algorithm: K-Means
+Selected clusters: 4
+Random state: 42
+Silhouette score: 0.5176
+
+PCA
+---
+Explained variance by two components: 0.8707
+
+CLUSTER COUNTS
+--------------
+Cluster
+0    250
+1    251
+2    250
+3    249
+
+SEGMENT SUMMARY
+---------------
+           Age  AnnualIncome  SpendingScore  PurchaseFrequency  AverageOrderValue  WebsiteVisits  CustomerCount  CustomerPercentage
+Cluster                                                                                                                            
+0        24.85      85268.78          84.05              15.06             179.21          25.09            250                25.0
+1        49.74      29502.71          24.73               3.33              35.14           5.25            251                25.1
+2        30.40      34864.14          80.62              11.65              66.29          19.72            250                25.0
+3        43.70      87685.86          24.97               4.13             101.63           7.16            249                24.9
+
+IMPORTANT
+---------
+This project uses synthetic customer data.
+The results demonstrate a machine learning workflow.
+They should not be treated as findings about real customers.
